@@ -1,11 +1,10 @@
-<!-- templates/success.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Success</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block content %}
+    <head>
+        <title>
+            File Uploaded successfully
+        </title>
+    </head>
     <h1>Upload Successful!</h1>
     <p>Your data has been successfully uploaded.</p>
-</body>
-</html>
+{% endblock content %}

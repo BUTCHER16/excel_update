@@ -36,3 +36,6 @@ def upload_excel(request):
 
 def success_view(request):
     return render(request, 'success.html')
+
+def login(request):
+    return render(request, 'login.html')
